@@ -14,8 +14,11 @@ body {
 .card {
     height: 400px;
     width: 500px;
-    background-image: url(./fundo.jpg);
+    background-image: url('./fundo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
